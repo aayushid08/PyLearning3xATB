@@ -1,13 +1,13 @@
 # Task #2
 # Develop a Python script that calculates the square and cube of a given number. num = 2 sq - 4, c = 8
 
-# Discribed in normal
+# Described in normal
 num = 2
 sq_num = num ** 2
 cube_num = num ** 3
 print("Square of 2 is:",  sq_num, "Cube of 2 is:", cube_num)
 
-# Discribed using f string
+# Described using f string
 
 num2 = 4
 sq_num2 = num2 ** 2
