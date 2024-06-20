@@ -1,15 +1,35 @@
 # ✅ #4. Fibonaci series
-# # 0,0+1, 0+1+1,
-# # n = 7
-# # 0, 1, 2, 3, 5, 8, 13
 
-# x = (n-1) + (n-2) + (n-3) + (n-4) .....
+# first if we not get the solution learn to change the view at problem
 
-# x = (7-1) + (7-2) + (7-3) + (7-4) + (7-5) + (7-6) + (7-7)
-# print(x)
+# pehele humne dekha ki series kaisi hai: we got (n+1)-(n+2)..........something
 
-fact = 1
-n = int(input("Enter a number: "))
+# ab directly series dekh kaisi dekhti : fibonacci series: 0, 1, 1, 2, 3, 5, 8, 13, 21, 34, ...
+#                                               stp1       a  b  c  |  |
+#                                               stp2          a  b  c  |
+#                                               stp3             a  b  c
 
-while n > 0:
-    x = (n-1) + x
+n = int(input("Enter the Number: "))
+
+
+def fib(n):
+    if n <= 0:
+        print("Na beta na, number 0 se bada laa de")
+    else:
+        a = 0
+        b = 1
+        if n == 1:
+            print(1)
+        else:
+            print(a)
+            print(b)
+            for i in range(2, n):
+
+                c = a + b
+                a = b
+                b = c
+                print(c)
+
+
+fib(n)
+
