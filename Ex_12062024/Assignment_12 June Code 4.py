@@ -24,7 +24,6 @@ def fib(n):
             print(a)
             print(b)
             for i in range(2, n):
-
                 c = a + b
                 a = b
                 b = c
@@ -32,4 +31,3 @@ def fib(n):
 
 
 fib(n)
-
