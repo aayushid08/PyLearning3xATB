@@ -8,16 +8,8 @@
 # x = (7-1) + (7-2) + (7-3) + (7-4) + (7-5) + (7-6) + (7-7)
 # print(x)
 
+fact = 1
+n = int(input("Enter a number: "))
 
-def fibonacci_recursive(n):
-    if n <= 0:
-        return 0
-    elif n == 1:
-        return 1nm
-    else:
-        return fibonacci_recursive(n-1) + fibonacci_recursive(n-2)
-
-# Input: number of terms
-n = int(input("Enter the number of terms: "))
-fib_sequence = [fibonacci_recursive(i) for i in range(n)]
-print(f"Fibonacci sequence up to {n} terms: {fib_sequence}")
+while n > 0:
+    x = (n-1) + x
