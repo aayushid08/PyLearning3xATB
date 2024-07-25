@@ -11,7 +11,7 @@ class Car:
     password = "123"
 
     def __init__(self):
-        print("I am called when a OBject is created")
+        print("I am called when a Object is created")
 
     def change_password(self):
         self.password = "345"

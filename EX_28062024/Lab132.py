@@ -22,3 +22,6 @@ class Password:
 pwd = Password("Hacker123")
 pwd.get_pwd(True)
 pwd.set_pwd("piuytrewqfghj9")
+
+
+#possitional argument means when you have to give the argument but you are not giving it.
