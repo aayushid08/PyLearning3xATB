@@ -1,0 +1,14 @@
+This is a TestData.txt
+Hello How are you
+# How to write to a file
+
+# How to write to a file
+
+# How to write to a file
+'# How to write to a file
+
+# How to write to a file
+
+Path ctrl shift c
+C:\Users\intel\PycharmProjects\PyLearning3xATB\Ex_03072024\TestData.txtHello How are youHello How are youHello How are you
+Hello How are you .. Oye bol naa
